@@ -1,4 +1,4 @@
-# Complete this program to classify people by age
+"""# Complete this program to classify people by age
 age = int(input("Enter age: "))
 
 # Add your if-elif-else statements here
@@ -8,6 +8,16 @@ age = int(input("Enter age: "))
 # 60+: Senior
 
 # Your code here:
+if age >= 0 and age <= 12 :
+    print("Child")
+elif age >=13 and age <=19 :
+    print("Teenager")
+elif age >=20 and age <=59:
+    print ("Adult")
+else : print("Senior")
+"""
+
+
 
 
 
@@ -28,6 +38,17 @@ if entered_pin == pin:
         
         # Complete the menu logic here
         # Your code here:
-        
+        if choice == "1":
+            print("Balance :",balance)
+        elif choice == "2":
+            withdraw = float(input("Amount:"))
+            balance = balance - withdraw
+        elif choice == "3":
+            deposit = float(input("Amount:"))
+            balance = balance + deposit
+        elif  choice == "4":
+            break
+
 else:
     print("Invalid PIN")
+
