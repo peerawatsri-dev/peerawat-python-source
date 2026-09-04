@@ -62,9 +62,17 @@ print("\n=== TRAVERSING STRINGS ===")
 message = "hello"
 index = 0
 
-print("Method 1: Using for loop with enumerate")
+print("Method 1: Using for loop with enumerate") 
 for i, char in enumerate(message):
     print(f"message[{i}] = {char}")
+"""
+Method 1: Using for loop with enumerate
+message[0] = h
+message[1] = e
+message[2] = l
+message[3] = l
+message[4] = o
+"""
 
 print("\nMethod 2: Manual indexing")
 index = 0
@@ -155,7 +163,7 @@ print("Backslash example:")
 print("Path: C:\\Users\\Python")
 
 print("Quote examples:")
-print('He said, "What\'s there?"')
+print('He said, "What\'s there?"') #\' เพื่อไม่ให้ error
 print("He said, \"What's there?\"")
 print('''He said, "What's there?"''')
 
@@ -163,6 +171,24 @@ print('''He said, "What's there?"''')
 print("\nRaw string example:")
 print("Normal: This is \\x61 \\ngood example")
 print(r"Raw: This is \x61 \ngood example")
+"""
+=== ESCAPE CHARACTERS ===
+New line example:
+Line 1
+Line 2
+Tab example:
+Column1 Column2 Column3
+Backslash example:
+Path: C:\Users\Python
+Quote examples:
+He said, "What's there?"
+He said, "What's there?"
+He said, "What's there?"
+
+Raw string example:
+Normal: This is \x61 \ngood example
+Raw: This is \x61 \ngood example
+"""
 
 # ===========================
 # 11. STRING FORMATTING
