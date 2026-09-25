@@ -25,7 +25,7 @@ class Car:
         return cls.vehicle_type
 
 # Creating instances
-car1 = Car("Toyota", "Camry", 2022)
+car1 = Car("Toyota", "Camry", 2022) 
 car2 = Car("Honda", "Civic", 2021)
 
 # Accessing class attributes
