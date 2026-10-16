@@ -19,9 +19,5 @@ A global variable passing_grade = 50
 - Loops through students
 - Uses the global passing_grade to determine pass/fail
 - Prints each student's name, average, and status (PASS/FAIL)
-<<<<<<< HEAD
 """
 
-=======
-"""
->>>>>>> upstream/main
