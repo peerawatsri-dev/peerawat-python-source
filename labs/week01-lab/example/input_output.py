@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 """
 #  Exercise 1: Basic Input
+=======
+# Exercise 1: Basic Input
+>>>>>>> upstream/main
 # Ask the user for their name and greet them
 print("=== Exercise 1: Basic Input ===")
 user_name = input("What is your name? ")
@@ -25,7 +29,10 @@ calculated_age = current_year - birth_year
 
 print("Full name:", first_name + " " + last_name)
 print("Calculated age:", calculated_age)
+<<<<<<< HEAD
 """
+=======
+>>>>>>> upstream/main
 
 # Exercise 4: Different Print Formats
 print("\n=== Exercise 4: Print Formatting ===")
